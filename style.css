@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body{
+   font-family: "Raleway", sans-serif; 
+   margin: 0;
+}
+
+nav{
+    background-color: #537A5A;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 1em;
+    justify-content: center;
+    box-shadow: 0px 3px 5px #8a817c ;
+}
+
+img.earth{
+    width: 28px;
+}
+
+h3{
+    font-weight: 600;
+    letter-spacing: .12em;
+}
+
+h2{
+    font-weight: 600;
+    letter-spacing: .12em;
+    margin: -0.4em 0 1em -0.1em;
+    color: #171615;
+}
+
+div.card-container{
+    display: flex;
+    border-bottom: 1px solid #8a817c;
+    padding: 1em;
+    min-width: 680px;
+    max-width: 800px;
+    margin: 1em;
+}
+
+div.text-container{
+    padding: 1em 2em;
+}
+
+img.card-img{
+    width: 180px;
+    align-self: center;
+    border-radius: 8px;
+}
+
+p.date{
+    font-size: .9em;
+    font-weight: 500;
+    color: #8a817c;
+}
+
+p{
+    letter-spacing: .025em;
+    line-height: 2em;
+    color: #3B3836;
+}
+
+img.location{
+    width: 16px;
+   margin: -.5em .5em 0 -.25em;
+}
+
+span{
+    padding-right: 1em;
+    letter-spacing: .04em;
+}
+
+a{
+    color: #8a817c;
+}
+
+span.loc{
+    font-weight: 500;
+}
